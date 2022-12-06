@@ -1,13 +1,13 @@
 #
 #
-# Funcion para instalar paquetes en caso de no tenerlos
+# Función para instalar paquetes en caso de no tenerlos
 #
 # 
 
 # Primero se crea un objeto que contenga los paquetes que utilizaremos
 # Esto se hace nombrando al objeto (en este caso paquetes_usados), luego
-# utilizando la flecha de asignacion ( <- ) y luego el conjunto de paquetes
-# con la funcion c()
+# utilizando la flecha de asignación ( <- ) y luego el conjunto de paquetes
+# con la función c()
 
 paquetes_usados <- c("tidyverse", "ggdog")
 
