@@ -16,8 +16,11 @@ datos_para_grafico <- inteligencia_perros %>% # Crear objeto y asignarle intelig
   mutate( # Crear una nueva variable
     raza_factor = forcats::as_factor(Breed) # La nueva variable sera Breed convertida en factor
   ) %>% # Y LUEGO
-  filter(grepl("Terrier", Breed) & height_low_inches > 17) # Filta los datos según estas 
+  filter(grepl("Terrier", Breed) & height_low_inches > 17) # Filtra los datos según estas 
                                                           # dos condiciones. Por eso el &
+                                                          # La función grepl es la que ayuda a filter
+                                                          # a buscar la cadena "Terrier" dentro de la 
+                                                          # variable Breed
 
 # En este caso la primer condición es que tome todos los datos 
 # de la variable Breed que contengan "Terrier". Y también que el sean mayores que 17 
