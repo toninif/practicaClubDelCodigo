@@ -1,7 +1,8 @@
 #
 #
 # Cargando datos separados por coma (csv)
-#
+# Para este ejemplo los datos los descargue de kaggle: 
+# https://www.kaggle.com/datasets/jasleensondhi/dog-intelligence-comparison-based-on-size
 #
 
 library(readr) # El paquete que carga este tipo de datos es readr
